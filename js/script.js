@@ -205,4 +205,4 @@ avatarBlock.appendChild(avatarImg);
 avatarBlock.appendChild(avatarName);
 avatarName.appendChild(avatar__name);
 
-// console.log(document.body.appendChild(wrapper));
+alert('Я оцениваю свою работу на 20 баллов');
