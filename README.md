@@ -1,1 +1,0 @@
-# https://kunduzkonurbaevakk/Card.html/
