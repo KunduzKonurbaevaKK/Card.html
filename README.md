@@ -1,1 +1,1 @@
-# https://kunduzkonurbaevakk.github.io/Card.html/
+# https://kunduzkonurbaevakk/Card.html/
