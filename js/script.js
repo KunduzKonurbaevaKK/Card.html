@@ -205,4 +205,4 @@ avatarBlock.appendChild(avatarImg);
 avatarBlock.appendChild(avatarName);
 avatarName.appendChild(avatar__name);
 
-alert('Я оцениваю свою работу на 20 баллов');
+alert('Я оцениваю свою работу на 110 баллов');
