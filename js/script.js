@@ -1,6 +1,19 @@
-// Create elements
+
 
 let main = document.createElement('main');
+
+// style of main
+main.style.width = '100%';
+main.style.height = '100vh';
+main.style.display = 'flex';
+main.style.justifyContent = 'center';
+main.style.gap = '30px';
+main.style.flexWrap = 'nowrap';
+main.style.backgroundColor = '#0D1A2D';
+
+
+function CreateWrapperBox(){
+  // Create elements
 let divIdWrapper = document.createElement('div');
 let divImg = document.createElement('div');
 let imgBox = document.createElement ('img');
@@ -23,14 +36,7 @@ let avatar__name = document.createElement('a');
 document.body.style.margin = '0';
 document.body.style.padding = '0';
 
-// style of main
-main.style.width = '100%';
-main.style.height = '100vh';
-main.style.display = 'flex';
-main.style.justifyContent = 'center';
-main.style.gap = '30px';
-main.style.flexWrap = 'nowrap';
-main.style.backgroundColor = '#0D1A2D';
+
 
 
 
@@ -205,4 +211,10 @@ avatarBlock.appendChild(avatarImg);
 avatarBlock.appendChild(avatarName);
 avatarName.appendChild(avatar__name);
 
+}
+
+CreateWrapperBox();
+CreateWrapperBox();
+CreateWrapperBox();
+CreateWrapperBox();
 alert('Я оцениваю свою работу на 110 баллов');
